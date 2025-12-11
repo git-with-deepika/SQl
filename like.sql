@@ -5435,7 +5435,7 @@ commit;
 SET autocommit=@old_autocommit;
 
 -- Dump completed on 2020-01-22  9:56:18
-select * from country;
+select * from country ;
 select Name , Continent , Region from country where Continent not like ('Europe');
 select Name , Continent , Region from country where Region like '_a%';
 select Name , Continent , Region from country where Continent like '%i___';
